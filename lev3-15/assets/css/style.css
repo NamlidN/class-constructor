@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.oke {
+    width: 98%;
+    margin: 0, 1%;
+
+}
+input {
+    width: 49%;
+    margin: 0, 1%;
+    text-align: center;
+    color: black;
+    height: 2rem;
+}
+textarea {
+    width: 98%;
+    margin: 0, 1%;
+}
+button {
+    width: 100%;
+    margin: 0, 1%;
+    height: 2rem;
+
+}
+div{
+
+    background-size: cover;
+    width: 100vh;
+    margin: 5rem ;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    background-repeat: no-repeat;
+    
+
+gap: 0;
+}
+#result{
+    background-repeat: no-repeat;
+}
+.name{
+    margin: 0;
+    padding: 0;
+    grid-row: 5/6;
+grid-column: 1/2;
+margin-top: -10rem;
+margin-left: -10rem;
+
+font-size: 3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.673);
+  
+  rotate: 90deg;
+}
+.SN{
+    margin: 0;
+    padding: 0;
+    grid-row: 4/5;
+grid-column: 5/6;
+font-size: 3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.684);
+  background-color: rgba(144, 144, 144, 0.393);
+  rotate: -90deg;
+}
+p{
+
+    font-family: monospace;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.684);
+    background-color: rgba(144, 144, 144, 0.393);
+}
+.alb{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+}
+.sing{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.net{
+    text-align: center;
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+.age{
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+
